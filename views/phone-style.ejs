@@ -22,6 +22,14 @@
     <p style="color: white; background-color: rgb(60, 240, 54);"><%= battery %> % </p>
 
     <% } %> 
+
+ <% if (name=="Samsung") { %>
+  <p style="color: white; padding-left: 4px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> SAMSUNG</p>
+<p style="color: white; text-align: center; font-weight: bold; font-size: 35px;">Galaxy <%= phonetype %></p>
+<p style="color: white; padding-left: 4px;">Light. Powerfull. Elegant.</p>
+ <% } %> 
+
+
 </div>
 <div style="background-color: <%= color %> ; width: 210px; height: 400px; border-radius: 10px; margin-top: 10px"> 
 <div style="background-color: black; border-radius: 50% ; width: 25px; height: 25px; margin: auto; margin-top: 10px; "></div>
@@ -33,7 +41,7 @@
 
 <% } else if(name=="Samsung"){ %>
 
-    <p style="text-align: center; color: bisque;">SAMSUNG</p>
+    <p style="text-align: center; color: bisque; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">SAMSUNG</p>
 
  <% } %> 
 
